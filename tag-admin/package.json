@@ -9,8 +9,14 @@
     "test": "jest"
   },
   "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.24.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^5.0.5",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-table": "^6.11.5"
+    "react-table": "^6.11.5",
+    "rollup-plugin-css-only": "^4.5.2"
   }
 }
